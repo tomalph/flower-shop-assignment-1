@@ -1,0 +1,143 @@
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 15px;
+}
+nav .nav-title{
+    font-size: 30px;
+}
+nav > ul{
+    display: flex;
+    
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+nav a{
+    text-decoration: none;
+}
+.primary-btn{
+    background-color: #E55473;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+    background-color: #EEE8E9;
+}
+ /* header .banner-imgage{ */
+    /* height: 800px; */
+    /* width: 635px; */
+/* } */
+.banner-info{
+    max-width: 500px;
+}
+.banner .banner-image{
+    max-width: 500px;
+
+}
+.banner-title{
+    font-size: 45px;
+
+    margin-bottom: 0;
+}
+.banner-description{
+    line-height: 30px;
+}
+.featured-title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.featured-description{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flower-1{
+    background-color: #F2DEE7;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px 150px 0px 0px;
+    margin-left: 110px;
+    
+}
+.flower-2{
+    background-color: #D9EFF1;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px 150px 0px 0px;
+}
+.flower-1-img{
+    width: 270px;
+    height: 250px;
+    padding: 40px;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flowers{
+    gap: 30px;
+
+}
+.flower-3{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px 150px 0px 0px;
+    background-color: #E3EBDB;
+
+}
+/* .flowers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.flowers .flowers-img{
+    width: 150px;
+    height: 230px;
+    
+} */
+.hot-deal{
+    display: flex;
+    margin-top: 200px;
+    background-color: #FEF6F8;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+}
+.hot-deal-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.insta-info{
+    align-items: center;
+    text-align: center;
+}
+.instagram-section img{
+    width: 200px;
+    height: 300px;
+    
+    margin: 50px 50px;
+}
