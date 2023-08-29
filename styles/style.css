@@ -124,6 +124,7 @@ nav a{
     justify-content: space-between;
     padding: 0 200px;
     align-items: center;
+    margin-bottom: 60px;
 }
 .hot-deal-title{
     font-size: 1.5rem;
@@ -141,3 +142,84 @@ nav a{
     
     margin: 50px 50px;
 }
+.subscribe-title{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.subscribe-description{
+    text-align: center;
+
+}
+.sub-input{
+    text-align: center;
+}
+.sub-input input{
+    width: 500px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+}
+.subscribe-container{
+    position: relative;
+    text-align: center;
+    margin: 45px;
+
+}
+.subscribe-container img{
+    width: 100%;
+}
+.subscribe-title{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.subscribe-description{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.subscribe-container input{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    margin: 20px;
+    padding: 5px 0px 5px 10px;
+    width: 400px;
+    height: 23px;
+}
+.subscribe-btn{
+    position: absolute;
+    top: 45%;
+    left: 68%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    /* margin-bottom: 50px; */
+    padding: 50px;
+    
+}
+*{
+    margin: 0;
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 20px;
+}
+.foot-color{
+    color: #E55473;
+}
+.footer-description{
+    /* margin-top: 25px; */
+    margin: 20px;
+    padding-bottom: 30px;
+}
+/* .footer .small-copy{
+    padding: 30px;
+    margin: 30px;
+} */
